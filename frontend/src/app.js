@@ -9,7 +9,7 @@ function App() {
   const getBackendMessage = async () => {
     try {
 
-      const response = await axios.get("http://100.55.158.242:5000/api");
+      const response = await axios.get("http://35.171.47.97:5000/api");
 
       setMessage(response.data.message);
 
